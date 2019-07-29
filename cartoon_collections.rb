@@ -21,5 +21,6 @@ def find_the_cheese(array)
   if array.include? {|value| value == cheese}
     return "#{value}"
     else return nil
+    end
 end
 end
